@@ -203,8 +203,6 @@ you work on and the intended audience, we may go as low as 320px */
 /* gallery page */
 
 #hero-gallery-con {
-	background-color: #aaaaaa;
-	background: url("https://via.placeholder.com/428x458");
 	height: 458px;
 }
 
@@ -240,9 +238,7 @@ you work on and the intended audience, we may go as low as 320px */
 
 .gallery-box {
 	grid-column: 1/-1;
-	background-color: #ddd;
 	/* Remove as content will dictate height */
-	height: 507px;
 	margin-bottom: 20px;
 }
 
