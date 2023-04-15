@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>Kennedy Clothing</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
 <!-- students must convert divs to semantic tags -->
@@ -11,7 +11,7 @@
         
         <div id="header-con">
             <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
+                <img src="images/Clothing_Logo.svg" alt="image" id="header-logo" width="186" height="80">
                  <div id="mobile-nav">
                     <span class="burger"></span>
                     <span class="burger"></span>
@@ -23,40 +23,59 @@
         <main>
             <div id="hero-con">
                 <div class="grid-con">
-                    <div id="hero-text" class="box-color">
+                    <div id="hero-text">
+                        <img src="images/homepage.jpg" alt="image" width="400" height="458">
                     </div>
                 </div>
             </div>
 
             <div id="image-slider-con">
-                <h2>Blandit At Tuctor</h2>
-                <img src="https://via.placeholder.com/428x240" alt="image">
+                <h2>Categories</h2>
+                <img src="images/category_tops.jpg" alt="image" width="450" height="480">
                 <!-- ascii symbols for <> -->
                 <span id="mobile-slider-left">&#60</span>
                 <span id="mobile-slider-right">&#62</span>
             </div>
 
             <div id="about-us-con">
-                <h2>Blandit At Tuctor</h2>   
+                <h2></h2>   
                     <div id="about-us-text-con">     
                         <div class="grid-con">
-                            <div id="about-us-text" class="box-color">
+                            <div id="about-us-text">
+                        <h1>About</h1>
+                        <p>Since 2023, Kennedy Clothing has been the best spot to find style, outfit, and aesthetic inspiration. 
+                        It is constantly improving providing a curated catalogue of clothing attire, accessories, shoes, and so much more.</p>
                             </div>
                         </div>      
                     </div>  
-                    <div class="grid-con" id="about-us-photos">
+                    <div class="grid-con">
+                      <img src="images/circle_image_1.jpg" alt="image" class="about-us-photo" width="400" height="480">
+                 <!--   <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
                         <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
+                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo"> -->
                     </div>         
             </div>
 
             <div id="contact-us-con">
                 <div class="grid-con">
-                    <div id="contact-text" class="box-color">
+                    <div id="contact-text">
+                        <h1>Contact Us</h1>
+                    <p>
+                        If you have any questions, concerns, or suggestions, don't hesitate to reach out!
+                    </p>
                     </div>
-                    <div id="contact-form" class="box-color">
+                    <div id="contact-form" >
+                        <form action="action_page.php">
+                      
+                            <input type="text" id="fname" name="firstname" placeholder="First Name">
+                      
+                            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                            <input type="text" id="email" name="email" placeholder="Email">
+                      
+                            <textarea id="subject" name="subject" placeholder="Message" style="height:100px"></textarea>
+                      
+                            <input type="submit" value="Submit">
                     </div>
                 </div>
             </div>
